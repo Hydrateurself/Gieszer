@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    height: 100vh;
+    background-image: url(./Pics/plakatwand.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0 ;
+    
+}
+
+.headlight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper-background{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.background-image-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.wrapper{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 50px;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 0px;
+    height: 100vh;
+    width: 60em;
+    height: 40em;
+    scrollbar-width: none;
+}
+
+
+
+.wrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.item{
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+
+.child1{
+    margin-left: 0 auto;
+}
+
+.child4{
+    margin-right: 0 auto;
+}
+
+.textbox{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 200px;
+    background-color: black ;
+    border-radius: 2px;
+    border: 10px ridge lightgrey;
+}
+
+p{
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-family: 'Fira Mono', monospace;
+    padding-top: 30px;
+    line-height: 2;
+}
