@@ -72,15 +72,11 @@ body{
     margin-right: 0 auto;
 }
 
-.textbox{
-    display: flex;
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 500px;
-    height: 200px;
-    background-color: black ;
-    border-radius: 2px;
-    border: 10px ridge lightgrey;
+.flyer{
+    max-width: 100%;
+    height: auto;
+    width: auto/9;
+
 }
 
 p{
