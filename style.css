@@ -78,12 +78,3 @@ body{
     width: auto/9;
 
 }
-
-p{
-    color: white;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    font-family: 'Fira Mono', monospace;
-    padding-top: 30px;
-    line-height: 2;
-}
